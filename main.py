@@ -13,7 +13,7 @@ def var_states():
 
         if var9.get() == 1:
             if var1.get() == 1 and var3.get() == 1:
-                print("The best combo is ", d[1][0], 'and', d[3][2])
+                print("The best combo is ", d[4][0], 'and', d[3][2])
                 print("It will cost Rs.", int(d[4][1]) + int(d[3][3]))
                 print()
                 print("The cheapest combo is ", d[3][0], 'and', d[7][2])
